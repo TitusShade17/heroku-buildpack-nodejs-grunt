@@ -166,6 +166,9 @@ INCLUDE_PATH="$VENDORED_NODE/include"
 export CPATH="$INCLUDE_PATH"
 export CPPPATH="$INCLUDE_PATH"
 
+# install sass
+gem install sass --user-install --no-ri --no-rdoc
+
 # install dependencies with npm
 echo "-----> Installing dependencies with npm"
 #run_npm "install --production"
